@@ -1,0 +1,3 @@
+Los datos se guardan bien con el método $_POST, pero esos datos no se envían en ningún
+momento, es decir, que no se realiza la solicitud. No es un error de HTML ni del formulario
+sino de ejecución del envío de datos. Habría que realizar la solicitud JSON.
