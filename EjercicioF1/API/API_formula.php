@@ -5,7 +5,6 @@ function obtenerDatosPiloto($numeroPiloto) {
 
     //Iniciar la sesión cURL
     $cURL=curl_init();
-    
 
     //Para configurar lo que vamos a enviar 
     curl_setopt($cURL, CURLOPT_URL, $url);
